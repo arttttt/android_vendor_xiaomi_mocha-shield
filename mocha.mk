@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += enctune \
                     nvram_4356 \
                     bcm4356 \
                     fw_bcmdhd \
+                    fw_bcmdhd_apsta \
                     public.libraries \
                     nvavp_aacdec_ucode \
                     nvavp_aud_ucode \

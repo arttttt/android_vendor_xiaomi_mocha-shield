@@ -19,8 +19,19 @@ ifeq ($(TARGET_BOARD_PLATFORM),tegra)
 ifeq ($(TARGET_TEGRA_VERSION),t124)
 include $(CLEAR_VARS)
 LOCAL_MODULE := fw_bcmdhd
-LOCAL_SRC_FILES := bcm4354/fw_bcmdhd.bin \
-			bcm4354/fw_bcmdhd_apsta.bin
+LOCAL_SRC_FILES := bcm4354/fw_bcmdhd.bin
+LOCAL_MODULE_SUFFIX := .bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+endif
+
+ifeq ($(TARGET_TEGRA_VERSION),t124)
+include $(CLEAR_VARS)
+LOCAL_MODULE := fw_bcmdhd_apsta
+LOCAL_SRC_FILES := bcm4354/fw_bcmdhd_apsta.bin
 LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
