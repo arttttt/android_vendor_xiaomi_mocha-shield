@@ -27,6 +27,8 @@ PRODUCT_PACKAGES += run_ss_status.sh \
 
 # Firmware
 PRODUCT_PACKAGES += enctune \
+                    bq27520_atl \
+                    bq27520_lgc \
                     nvram_4350 \
                     bcm4350 \
                     fw_bcmdhd \
