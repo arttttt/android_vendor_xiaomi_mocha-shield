@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += run_ss_status.sh \
 
 # Firmware
 PRODUCT_PACKAGES += enctune \
-                    nvram_4356 \
+                    nvram_4350 \
                     bcm4350 \
                     fw_bcmdhd \
                     fw_bcmdhd_apsta \
