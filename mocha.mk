@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += run_ss_status.sh \
 PRODUCT_PACKAGES += enctune \
                     bq27520_atl \
                     bq27520_lgc \
+                    atmel-maxtouch \
+                    synaptics_dsx \
+                    tegra-rt5671_headphone_detect \
                     nvram_4350 \
                     bcm4350 \
                     fw_bcmdhd \
