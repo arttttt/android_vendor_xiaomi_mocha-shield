@@ -28,6 +28,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := atmel-maxtouch
 LOCAL_SRC_FILES := usr/keylayout/atmel-maxtouch.kl
+LOCAL_MODULE_PATH := $(TARGET_OUT_DATA_KEYLAYOUT)
 LOCAL_MODULE_SUFFIX := .kl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -37,6 +38,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := synaptics_dsx
 LOCAL_SRC_FILES := usr/keylayout/synaptics_dsx.kl
+LOCAL_MODULE_PATH := $(TARGET_OUT_DATA_KEYLAYOUT)
 LOCAL_MODULE_SUFFIX := .kl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
@@ -46,6 +48,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := tegra-rt5671_headphone_detect
 LOCAL_SRC_FILES := usr/keylayout/tegra-rt5671_headphone_detect.kl
+LOCAL_MODULE_PATH := $(TARGET_OUT_DATA_KEYLAYOUT)
 LOCAL_MODULE_SUFFIX := .kl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
