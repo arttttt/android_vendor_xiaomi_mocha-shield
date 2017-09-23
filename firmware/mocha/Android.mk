@@ -36,4 +36,143 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := lp5521
+LOCAL_SRC_FILES := lp5521
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890.config
+LOCAL_SRC_FILES := tfa9890.config
+LOCAL_MODULE_SUFFIX := .config
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_boot.patch
+LOCAL_SRC_FILES := tfa9890_boot.patch
+LOCAL_MODULE_SUFFIX := .patch
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_left.speaker
+LOCAL_SRC_FILES := tfa9890_left.speaker
+LOCAL_MODULE_SUFFIX := .speaker
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_left_music.eq
+LOCAL_SRC_FILES := tfa9890_left_music.eq
+LOCAL_MODULE_SUFFIX := .eq
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_left_music.preset
+LOCAL_SRC_FILES := tfa9890_left_music.preset
+LOCAL_MODULE_SUFFIX := .preset
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_left_voice.eq
+LOCAL_SRC_FILES := tfa9890_left_voice.eq
+LOCAL_MODULE_SUFFIX := .eq
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_left_voice.preset
+LOCAL_SRC_FILES := tfa9890_left_voice.preset
+LOCAL_MODULE_SUFFIX := .preset
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_right.speaker
+LOCAL_SRC_FILES := tfa9890_right.speaker
+LOCAL_MODULE_SUFFIX := .speaker
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_right_music.eq
+LOCAL_SRC_FILES := tfa9890_right_music.eq
+LOCAL_MODULE_SUFFIX := .eq
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_right_music.preset
+LOCAL_SRC_FILES := tfa9890_right_music.preset
+LOCAL_MODULE_SUFFIX := .preset
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_right_voice.eq
+LOCAL_SRC_FILES := tfa9890_right_voice.eq
+LOCAL_MODULE_SUFFIX := .eq
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_right_voice.preset
+LOCAL_SRC_FILES := tfa9890_right_voice.preset
+LOCAL_MODULE_SUFFIX := .preset
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tfa9890_rom.patch
+LOCAL_SRC_FILES := tfa9890_rom.patch
+LOCAL_MODULE_SUFFIX := .patch
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
 endif
