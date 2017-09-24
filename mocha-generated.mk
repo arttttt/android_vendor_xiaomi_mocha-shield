@@ -1,5 +1,4 @@
 PRODUCT_PACKAGES += \
-                    audio.primary.tegra \
                     libnvos \
                     libnvoice \
                     libnvaudiofx \
