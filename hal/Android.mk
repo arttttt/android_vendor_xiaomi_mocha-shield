@@ -138,6 +138,17 @@ LOCAL_MODULE_OWNER := nvidia
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := lights.tegra
+LOCAL_SRC_FILES := lib/hw/lights.tegra.so
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_TARGET_ARCH := arm
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := nvidia
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := gatekeeper.tegra
 LOCAL_SRC_FILES := lib64/hw/gatekeeper.tegra.so
 LOCAL_MODULE_SUFFIX := .so

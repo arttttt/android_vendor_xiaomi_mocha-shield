@@ -17,6 +17,7 @@ PRODUCT_PACKAGES += \
                     keystore.tegra \
                     memtrack.tegra \
                     vulkan.tegra \
+                    lights.tegra \
                     sensors.default.api_v1.3.mpl520.nvs \
                     libsensors.hal.nvs \
                     libsensors.hal-drivers.nvs \
