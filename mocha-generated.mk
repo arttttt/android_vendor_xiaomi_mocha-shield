@@ -17,11 +17,8 @@ PRODUCT_PACKAGES += \
                     memtrack.tegra \
                     vulkan.tegra \
                     lights.tegra \
-                    sensors.default.api_v1.3.mpl520.nvs \
-                    libsensors.hal.nvs \
-                    libsensors.hal-drivers.nvs \
-                    libsensors.fusion.mpl520.nvs \
-                    libsensors.prefusion.mpl520.nvs \
+                    libsensors.lsm6db0 \
+                    libsensors.mpu6515 \
                     libmplmpu \
                     libmllite \
                     tlk_daemon \
