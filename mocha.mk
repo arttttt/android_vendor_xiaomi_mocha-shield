@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += enctune \
                     bcm4350 \
                     fw_bcmdhd \
                     fw_bcmdhd_apsta \
+                    conn_init \
                     public.libraries \
                     nvavp_aacdec_ucode \
                     nvavp_aud_ucode \
