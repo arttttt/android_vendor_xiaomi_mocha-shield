@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/nvidia/shield/shieldtablet-generated.mk)
+$(call inherit-product, vendor/nvidia/shield/loki-generated.mk)
 $(call inherit-product, vendor/nvidia/shield/app/shieldtech.mk)
 #$(call inherit-product, vendor/nvidia/shield/app/blakepairing.mk)
 $(call inherit-product, vendor/nvidia/shield/app/consoleui.mk)
@@ -22,20 +22,12 @@ $(call inherit-product, vendor/nvidia/shield/app/nvcamera.mk)
 $(call inherit-product, vendor/nvidia/shield/ussrd/ussrd.mk)
 $(call inherit-product, vendor/nvidia/shield/widevine/widevine.mk)
 
-# Scripts and non exe/shared objects
-PRODUCT_PACKAGES += run_ss_status.sh \
-                    gps_select \
-                    modemnic \
-                    hdcp1x \
-                    hdcp2x \
-                    hdcp2xtest
-
 # Firmware
 PRODUCT_PACKAGES += enctune \
                     model_frontal \
-                    nvram_43241 \
-                    bcm43241 \
+                    nvram_4354 \
                     fw_bcmdhd \
+                    bcm4350 \
                     public.libraries \
                     nvavp_aacdec_ucode \
                     nvavp_aud_ucode \
@@ -47,14 +39,36 @@ PRODUCT_PACKAGES += enctune \
                     nvavp_vid_ucode \
                     nvavp_vid_ucode_alt \
                     tegra_xusb_firmware \
-                    tegra12x_xusb_firmware \
+                    tegra21x_xusb_firmware \
+                    acr_ucode \
                     fecs \
+                    fecs_sig \
                     gpccs \
                     gpmu_ucode \
+                    gpmu_ucode_desc \
+                    gpmu_ucode_image \
+                    gpu2cde \
                     NETB_img \
-                    nvhost_msenc031 \
+                    pmu_bl \
+                    pmu_sig \
+                    nvhost_nvdec020 \
+                    nvhost_nvdec020_ns \
+                    nvhost_nvdec020_prod \
+                    nvhost_nvdec_bl020 \
+                    nvhost_nvdec_bl020_prod \
+                    nvhost_nvdec_bl_no_wpr020 \
+                    nvhost_nvenc050 \
+                    nvhost_nvjpg010 \
                     nvhost_tsec \
-                    vic03_ucode
+                    vic04_ucode
+
+# Scripts / non-binary
+PRODUCT_PACKAGES += run_ss_status.sh \
+                    gps_select \
+                    eks2.dat \
+                    hdcp1x \
+                    hdcp2x \
+                    hdcp2xtest \
 
 # Raydium support
 PRODUCT_PACKAGES += para_10_02_00_a0 \

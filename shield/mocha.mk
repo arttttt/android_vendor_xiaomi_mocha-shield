@@ -19,6 +19,7 @@ $(call inherit-product, vendor/xiaomi/mocha/shield/app/shieldtech.mk)
 #$(call inherit-product, vendor/nvidia/shield/app/blakepairing.mk)
 $(call inherit-product, vendor/xiaomi/mocha/shield/ussrd/ussrd.mk)
 $(call inherit-product, vendor/xiaomi/mocha/shield/app/arttttt.mk)
+$(call inherit-product, vendor/xiaomi/mocha/shield/widevine/widevine.mk)
 
 # Scripts and non exe/shared objects
 PRODUCT_PACKAGES += run_ss_status.sh \
