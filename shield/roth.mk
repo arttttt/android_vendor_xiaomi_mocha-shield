@@ -14,38 +14,28 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/nvidia/shield/jetson-tk1-generated.mk)
+$(call inherit-product, vendor/nvidia/shield/roth-generated.mk)
 $(call inherit-product, vendor/nvidia/shield/app/shieldtech.mk)
 $(call inherit-product, vendor/nvidia/shield/app/blakepairing.mk)
-$(call inherit-product, vendor/nvidia/shield/ussrd/ussrd.mk)
+$(call inherit-product, vendor/nvidia/shield/app/consoleui.mk)
+$(call inherit-product, vendor/nvidia/shield/widevine/widevine.mk)
 
-# Scripts and non exe/shared objects
-PRODUCT_PACKAGES += run_ss_status.sh \
+PRODUCT_PACKAGES += gps_select \
                     hdcp1x \
                     hdcp2x \
                     hdcp2xtest
 
 # Firmware
-PRODUCT_PACKAGES += enctune \
-                    nvram_4356 \
-                    bcm4356 \
+PRODUCT_PACKAGES += \
+                    nvram_43241 \
+                    bcm43241 \
                     fw_bcmdhd \
-                    public.libraries \
-                    nvavp_aacdec_ucode \
                     nvavp_aud_ucode \
-                    nvavp_mp3dec_ucode \
                     nvavp_os_0ff00000 \
-                    nvavp_os_8ff00000 \
                     nvavp_os_eff00000 \
-                    nvavp_os_f7e00000 \
-                    nvavp_vid_ucode \
                     nvavp_vid_ucode_alt \
-                    tegra_xusb_firmware \
-                    tegra12x_xusb_firmware \
-                    fecs \
-                    gpccs \
-                    gpmu_ucode \
-                    NETB_img \
-                    nvhost_msenc031 \
-                    nvhost_tsec \
-                    vic03_ucode
+                    nvhost_msenc02 \
+                    nvhost_tsec
+
+# Oemcrypto
+PRODUCT_PACKAGES += libstlport
