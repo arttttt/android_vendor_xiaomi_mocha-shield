@@ -23,12 +23,9 @@ PRODUCT_PACKAGES += \
                     libmllite \
                     tlk_daemon \
                     ss_status \
-                    libtsec_wrapper \
                     libEGL_tegra \
-                    libtsec_wrapper \
                     libnvglsi \
                     libnvrmapi_tegra \
-                    libnvcpl \
                     libphs \
                     libGLESv1_CM_tegra \
                     libglcore \
