@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/mocha/mocha-generated.mk)
-$(call inherit-product, vendor/xiaomi/mocha/app/shieldtech.mk)
+$(call inherit-product, vendor/xiaomi/mocha/shield/mocha-generated.mk)
+$(call inherit-product, vendor/xiaomi/mocha/shield/app/shieldtech.mk)
 #$(call inherit-product, vendor/nvidia/shield/app/blakepairing.mk)
-$(call inherit-product, vendor/xiaomi/mocha/ussrd/ussrd.mk)
-$(call inherit-product, vendor/xiaomi/mocha/app/arttttt.mk)
+$(call inherit-product, vendor/xiaomi/mocha/shield/ussrd/ussrd.mk)
+$(call inherit-product, vendor/xiaomi/mocha/shield/app/arttttt.mk)
 
 # Scripts and non exe/shared objects
 PRODUCT_PACKAGES += run_ss_status.sh \
