@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
                     libEGL_tegra \
                     libnvglsi \
                     libnvrmapi_tegra \
+                    libnvcpl \
                     libphs \
                     libGLESv1_CM_tegra \
                     libglcore \
