@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
                     libmllite \
                     tlk_daemon \
                     ss_status \
+                    libtsec_wrapper \
                     libEGL_tegra \
                     libnvglsi \
                     libnvrmapi_tegra \
